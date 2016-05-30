@@ -1,17 +1,18 @@
+/*styles to be applied to entire document*/
 * {
 	box-sizing: border-box;
 	margin: 0;
 	padding: 0;
 	font-family: Arial, Helvetica, sans-serif;
 }
-
+/*position and size menu heading*/
 h1 {
 	text-align: center;
 	margin-top: 5%;
 	margin-bottom: 5%;
 	font-size: 175%;
 	}
-
+/*position and size menu option titles*/
 h3 {
 	font-size: 125%;
 	padding: 1% 1%;
@@ -25,7 +26,7 @@ h3 {
 p {
 	padding: 0 2% 3% 3%;
 }
-
+/*container for menu option 1 titles and content*/
 .menuItem1 {
 	position: relative;
 	float: left;
@@ -33,7 +34,7 @@ p {
 	background-color: #C2B8B8;
 	border: 1px solid black;
 }
-
+/*container for menu option 1 titles and content*/
 .menuItem2 {
 	position: relative;
 	float: left;
@@ -41,7 +42,7 @@ p {
 	background-color: #C2B8B8;
 	border: 1px solid black;
 }
-
+/*container for menu option 1 titles and content*/
 .menuItem3 {
 	position: relative;
 	float: left;
@@ -49,20 +50,20 @@ p {
 	background-color: #C2B8B8;
 	border: 1px solid black;
 }
-
+/*option 1 titles has a unique color*/
 .menuItem1 h3 {
 	background-color: #ff6666;
 }
-
+/*option 2 titles has a unique color*/
 .menuItem2 h3 {
 	background-color: #990033;
 	color: white;
 }
-
+/*option 3 titles has a unique color*/
 .menuItem3 h3 {
 	background-color: #ff9933;
 }
-
+/*styles that take effect for desktop devices*/
 @media (min-width: 992px) {
 
 	.menuItem1 {
@@ -87,7 +88,7 @@ p {
 		width: 155px;
 	}
 }
-
+/*styles that take effect for tablet devices*/
 @media (min-width: 768px) and (max-width: 991px) {
 
 	.menuItem1 {
@@ -113,7 +114,7 @@ p {
 		padding: 4px 1%;
 	}
 }
-
+/*styles that take effect for mobile devices*/
 @media (max-width: 767px) {
 
 	.menuItem1 {
