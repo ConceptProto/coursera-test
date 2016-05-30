@@ -23,7 +23,7 @@ h3 {
 }
 
 p {
-	padding: 0 2%;
+	padding: 0 2% 3% 3%;
 }
 
 .menuItem1 {
@@ -110,6 +110,7 @@ p {
 
 	h3 {
 		width: 155px;
+		padding: 4px 1%;
 	}
 }
 
