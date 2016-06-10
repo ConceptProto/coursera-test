@@ -24,6 +24,8 @@ hr {
 	margin-top: 5%;
 	background: #6699ff;
 	padding: 0 2%;
+	margin-left: 2%;
+	margin-right: 2%;
 } 
 
 h3.text-center {
@@ -43,6 +45,7 @@ p.menu-description {
 
 	.menu-details {
 	padding: 0 5%;
+	margin: 5% 10%;
 
 } 
 }
