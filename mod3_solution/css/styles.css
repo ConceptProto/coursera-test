@@ -24,7 +24,6 @@ hr {
 	margin-top: 5%;
 	background: #6699ff;
 	padding: 0 2%;
-
 } 
 
 h3.text-center {
@@ -34,12 +33,18 @@ h3.text-center {
 
 p.menu-description {
 	height: 1000px;
+	text-align: justify;
 }
 
 @media (max-width: 767px) {
 	#bs-example-navbar-collapse-1 {
 	background: #6699ff;
 	}
+
+	.menu-details {
+	padding: 0 5%;
+
+} 
 }
 
 
