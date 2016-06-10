@@ -1,0 +1,46 @@
+.navbar-inverse .navbar-nav > li > a {
+	color: white;
+}
+
+.navbar-inverse .navbar-nav li a:hover {
+	color: red;
+}
+
+.navbar-inverse .navbar-nav li a:visited {
+	color: black;
+}
+
+.navbar-nav {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+hr {
+	margin: 0;
+	border-color: black;
+}
+
+.menu-details {
+	margin-top: 5%;
+	background: #6699ff;
+	padding: 0 2%;
+
+} 
+
+h3.text-center {
+	margin-bottom: 2.5%;
+	margin-top: 1%;
+}
+
+p.menu-description {
+	height: 1000px;
+}
+
+@media (max-width: 767px) {
+	#bs-example-navbar-collapse-1 {
+	background: #6699ff;
+	}
+}
+
+
+
